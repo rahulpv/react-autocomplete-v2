@@ -1,6 +1,9 @@
-# React Autocomplete [![Travis build status](https://travis-ci.org/reactjs/react-autocomplete.svg?branch=master)](https://travis-ci.org/reactjs/react-autocomplete/)
+# React Autocomplete v2 [![Travis build status](https://travis-ci.org/rahulpv/react-autocomplete-v2.svg?branch=master)](https://travis-ci.org/rahulpv/react-autocomplete-v2/)
+Forked from reactjs/react-autocomplete for react 16+
 
-Accessible, extensible, Autocomplete for React.js.
+### React below 16
+Check out [react-autocomplete](https://github.com/reactjs/react-autocomplete).
+
 
 ```jsx
 <Autocomplete
@@ -39,8 +42,8 @@ yarn add react-autocomplete
 
 ### AMD/UMD
 
-* Development: [https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.js](https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.js)
-* Production: [https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.min.js](https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.min.js)
+* Development: [https://unpkg.com/react-autocomplete@1.0.2/dist/react-autocomplete.js](https://unpkg.com/react-autocomplete@1.0.2/dist/react-autocomplete.js)
+* Production: [https://unpkg.com/react-autocomplete@1.0.2/dist/react-autocomplete.min.js](https://unpkg.com/react-autocomplete@1.0.2/dist/react-autocomplete.min.js)
 
 ## API
 
@@ -80,7 +83,7 @@ aria-autocomplete. `inputProps` is commonly used for (but not limited to)
 placeholder, event handlers (onFocus, onBlur, etc.), autoFocus, etc..
 
 #### `isItemSelectable: Function` (optional)
-Default value: `function() { return true }`
+Default value: `() { return true }`
 
 Arguments: `item: Any`
 
@@ -108,14 +111,14 @@ implementation. If you override `renderMenu` and you want to use
 `menuStyle` you must manually apply them (`this.props.menuStyle`).
 
 #### `onChange: Function` (optional)
-Default value: `function() {}`
+Default value: `() {}`
 
 Arguments: `event: Event, value: String`
 
 Invoked every time the user changes the input's value.
 
 #### `onMenuVisibilityChange: Function` (optional)
-Default value: `function() {}`
+Default value: `() {}`
 
 Arguments: `isOpen: Boolean`
 
@@ -123,7 +126,7 @@ Invoked every time the dropdown menu's visibility changes (i.e. every
 time it is displayed/hidden).
 
 #### `onSelect: Function` (optional)
-Default value: `function() {}`
+Default value: `() {}`
 
 Arguments: `value: String, item: Any`
 
@@ -138,7 +141,7 @@ fine-grained control over the dropdown menu dynamics.
 #### `renderInput: Function` (optional)
 Default value:
 ```jsx
-function(props) {
+(props) {
   return <input {...props} />
 }
 ```
@@ -154,7 +157,7 @@ this will cause `Autocomplete` to behave unexpectedly.
 #### `renderMenu: Function` (optional)
 Default value:
 ```jsx
-function(items, value, style) {
+(items, value, style) {
   return <div style={{ ...style, ...this.menuStyle }} children={items}/>
 }
 ```

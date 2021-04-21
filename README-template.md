@@ -2,7 +2,7 @@
 Forked from reactjs/react-autocomplete for react 16+
 
 ### React below 16
-Check out [more examples](https://reactcommunity.org/react-autocomplete/) and get stuck right in with the [online editor](http://jsbin.com/mipesawapi/edit?js,output).
+Check out [react-autocomplete](https://github.com/reactjs/react-autocomplete).
 
 
 ```jsx
