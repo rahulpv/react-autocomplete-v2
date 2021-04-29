@@ -31,19 +31,14 @@ Check out [more examples](https://reactcommunity.org/react-autocomplete/) and ge
 ### npm
 
 ```bash
-npm install --save react-autocomplete
+npm install --save react-autocomplete-V2
 ```
 
 ### yarn
 
 ```bash
-yarn add react-autocomplete
+yarn add react-autocomplete-V2
 ```
-
-### AMD/UMD
-
-* Development: [https://unpkg.com/react-autocomplete@${VERSION}/dist/react-autocomplete.js](https://unpkg.com/react-autocomplete@${VERSION}/dist/react-autocomplete.js)
-* Production: [https://unpkg.com/react-autocomplete@${VERSION}/dist/react-autocomplete.min.js](https://unpkg.com/react-autocomplete@${VERSION}/dist/react-autocomplete.min.js)
 
 ## API
 

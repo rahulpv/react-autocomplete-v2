@@ -1,6 +1,6 @@
 {
   "name": "react-autocomplete-v2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Forked from reactjs/react-autocomplete for React.js 16+",
   "main": "./build/lib/Autocomplete.js",
   "files": [
