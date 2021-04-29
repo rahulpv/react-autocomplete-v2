@@ -1,6 +1,6 @@
 {
   "name": "react-autocomplete-v2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Forked from reactjs/react-autocomplete for React.js 16+",
   "main": "./build/lib/Autocomplete.js",
   "files": [
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rahulpv/react-autocomplete.git"
+    "url": "https://github.com/rahulpv/react-autocomplete-v2.git"
   },
-  "homepage": "https://github.com/rahulpv/react-autocomplete",
-  "bugs": "https://github.com/rahulpv/react-autocomplete/issues",
+  "homepage": "https://github.com/rahulpv/react-autocomplete-v2",
+  "bugs": "https://github.com/rahulpv/react-autocomplete-v2/issues",
   "directories": {
     "example": "examples"
   },
